@@ -1,0 +1,19 @@
+{
+  "name": "youtube-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "materialize-css": "^1.0.0-rc.2",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss styles/tailwind.css -o styles/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
